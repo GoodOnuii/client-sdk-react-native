@@ -11,8 +11,9 @@
     "postinstall": "install-local ../"
   },
   "dependencies": {
-    "@seoltab/react-native-webrtc": "^125.0.3",
-    "@seoltab/webrtc-xcframework": "^125.0.2",
+    "@seoltab/react-native": "*",
+    "@seoltab/react-native-webrtc": "^125.0.4",
+    "@seoltab/webrtc-xcframework": "^125.0.3",
     "react": "18.2.0",
     "react-native": "0.74.2"
   },

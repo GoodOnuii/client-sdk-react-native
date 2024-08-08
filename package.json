@@ -1,6 +1,6 @@
 {
   "name": "@seoltab/react-native",
-  "version": "2.3.3",
+  "version": "2.3.5",
   "description": "LiveKit for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -60,8 +60,8 @@
     "@react-native/metro-config": "0.74.84",
     "@react-native/typescript-config": "0.74.84",
     "@release-it/conventional-changelog": "^4.2.0",
-    "@seoltab/react-native-webrtc": "^125.0.3",
-    "@seoltab/webrtc-xcframework": "^125.0.2",
+    "@seoltab/react-native-webrtc": "^125.0.4",
+    "@seoltab/webrtc-xcframework": "^125.0.3",
     "@types/fastestsmallesttextencoderdecoder": "^1.0.0",
     "@types/react": "^18.2.6",
     "babel-jest": "^29.6.3",

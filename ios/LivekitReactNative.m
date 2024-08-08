@@ -13,7 +13,7 @@ RCT_EXPORT_MODULE();
 -(instancetype)init {
     if(self = [super init]) {
         
-        LKRTCAudioSessionConfiguration* config = [[LKRTCAudioSessionConfiguration alloc] init];
+        RTCAudioSessionConfiguration* config = [[RTCAudioSessionConfiguration alloc] init];
         [config setCategory:AVAudioSessionCategoryPlayAndRecord];
         [config setCategoryOptions:
              AVAudioSessionCategoryOptionAllowAirPlay|
@@ -22,7 +22,7 @@ RCT_EXPORT_MODULE();
              AVAudioSessionCategoryOptionDefaultToSpeaker
         ];
         [config setMode:AVAudioSessionModeVideoChat];
-        [LKRTCAudioSessionConfiguration setWebRTCConfiguration: config];
+        [RTCAudioSessionConfiguration setWebRTCConfiguration: config];
         return self;
     } else {
         return nil;
@@ -34,8 +34,8 @@ RCT_EXPORT_MODULE();
 }
 
 +(void)setup {
-    LKRTCDefaultVideoEncoderFactory *videoEncoderFactory = [[LKRTCDefaultVideoEncoderFactory alloc] init];
-    LKRTCVideoEncoderFactorySimulcast *simulcastVideoEncoderFactory = [[LKRTCVideoEncoderFactorySimulcast alloc] initWithPrimary:videoEncoderFactory fallback:videoEncoderFactory];
+    RTCDefaultVideoEncoderFactory *videoEncoderFactory = [[RTCDefaultVideoEncoderFactory alloc] init];
+    RTCVideoEncoderFactorySimulcast *simulcastVideoEncoderFactory = [[RTCVideoEncoderFactorySimulcast alloc] initWithPrimary:videoEncoderFactory fallback:videoEncoderFactory];
     WebRTCModuleOptions *options = [WebRTCModuleOptions sharedInstance];
     options.videoEncoderFactory = simulcastVideoEncoderFactory;
 }
@@ -52,7 +52,7 @@ RCT_EXPORT_METHOD(configureAudio:(NSDictionary *) config){
         defaultOutput = @"speaker";
     }
     
-    LKRTCAudioSessionConfiguration* rtcConfig = [[LKRTCAudioSessionConfiguration alloc] init];
+    RTCAudioSessionConfiguration* rtcConfig = [[RTCAudioSessionConfiguration alloc] init];
     [rtcConfig setCategory:AVAudioSessionCategoryPlayAndRecord];
     
     if([defaultOutput isEqualToString:@"earpiece"]){
@@ -69,7 +69,7 @@ RCT_EXPORT_METHOD(configureAudio:(NSDictionary *) config){
          AVAudioSessionCategoryOptionDefaultToSpeaker];
         [rtcConfig setMode:AVAudioSessionModeVideoChat];
     }
-    [LKRTCAudioSessionConfiguration setWebRTCConfiguration: rtcConfig];
+    [RTCAudioSessionConfiguration setWebRTCConfiguration: rtcConfig];
 }
 
 RCT_EXPORT_METHOD(startAudioSession){
@@ -121,8 +121,8 @@ RCT_EXPORT_METHOD(selectAudioOutput:(NSString *)deviceId
 
 /// Configure audio config for WebRTC
 RCT_EXPORT_METHOD(setAppleAudioConfiguration:(NSDictionary *) configuration){
-  LKRTCAudioSession* session = [LKRTCAudioSession sharedInstance];
-    LKRTCAudioSessionConfiguration* config = [LKRTCAudioSessionConfiguration webRTCConfiguration];
+  RTCAudioSession* session = [RTCAudioSession sharedInstance];
+  RTCAudioSessionConfiguration* config = [RTCAudioSessionConfiguration webRTCConfiguration];
 
   NSString* appleAudioCategory = configuration[@"audioCategory"];
   NSArray* appleAudioCategoryOptions = configuration[@"audioCategoryOptions"];

@@ -3074,16 +3074,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@seoltab/react-native-webrtc@npm:^125.0.3":
-  version: 125.0.3
-  resolution: "@seoltab/react-native-webrtc@npm:125.0.3"
+"@seoltab/react-native-webrtc@npm:^125.0.4":
+  version: 125.0.4
+  resolution: "@seoltab/react-native-webrtc@npm:125.0.4"
   dependencies:
     base64-js: 1.5.1
     debug: 4.3.4
     event-target-shim: 6.0.2
   peerDependencies:
     react-native: ">=0.60.0"
-  checksum: 4fa10085232379544454a1ac6c274476e9d499bacd23daef4b0484b93d1bf91bf665be57b4b49bdd703f32f5049a3454bfe9c13e32a8a800ff0d2858b15fc658
+  checksum: f36ba62b56bd0790b6c41a2020995cabada553232a5cf713dfb275fa27133e2e75563649938db0258e43e9703979fddb1798b2fe4b6a630f2550dcc20bd7425d
   languageName: node
   linkType: hard
 
@@ -3101,8 +3101,8 @@ __metadata:
     "@react-native/metro-config": 0.74.84
     "@react-native/typescript-config": 0.74.84
     "@release-it/conventional-changelog": ^4.2.0
-    "@seoltab/react-native-webrtc": ^125.0.3
-    "@seoltab/webrtc-xcframework": ^125.0.2
+    "@seoltab/react-native-webrtc": ^125.0.4
+    "@seoltab/webrtc-xcframework": ^125.0.3
     "@types/fastestsmallesttextencoderdecoder": ^1.0.0
     "@types/react": ^18.2.6
     array.prototype.at: ^1.1.1
@@ -3133,10 +3133,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@seoltab/webrtc-xcframework@npm:^125.0.2":
-  version: 125.0.2
-  resolution: "@seoltab/webrtc-xcframework@npm:125.0.2"
-  checksum: c6d9719c262acb1622326f16a2268588731e4238585f824a91be0303477d8abe12d43237d5f3839771b8b21ae34497fec0dc20c6cff79cab41b63cf65bf92bcc
+"@seoltab/webrtc-xcframework@npm:^125.0.3":
+  version: 125.0.3
+  resolution: "@seoltab/webrtc-xcframework@npm:125.0.3"
+  checksum: e31ad2f4e5dae864a529ded29f51bf5601aed6a23e1301bd636102b5bc30d41004824739e70cb3b13480a90af5bfedee4b7a497e2bf2889d7d22ec448d914bde
   languageName: node
   linkType: hard
 

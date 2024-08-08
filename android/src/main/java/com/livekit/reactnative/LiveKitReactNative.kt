@@ -7,7 +7,7 @@ import com.livekit.reactnative.audio.AudioType
 import com.livekit.reactnative.video.CustomVideoEncoderFactory
 import com.livekit.reactnative.video.CustomVideoDecoderFactory
 import com.oney.WebRTCModule.WebRTCModuleOptions
-import org.webrtc.audio.JavaAudioDeviceModule
+import livekit.org.webrtc.audio.JavaAudioDeviceModule
 
 object LiveKitReactNative {
 

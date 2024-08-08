@@ -2149,19 +2149,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@livekit/react-native-webrtc@npm:^125.0.2":
-  version: 125.0.2
-  resolution: "@livekit/react-native-webrtc@npm:125.0.2"
-  dependencies:
-    base64-js: 1.5.1
-    debug: 4.3.4
-    event-target-shim: 6.0.2
-  peerDependencies:
-    react-native: ">=0.60.0"
-  checksum: 60ac6ff17c46ac0657f13224f4de944e78cd930fc271e978d03afcd5ca532795d24318f0e6851e71cb195e6838e3c8778d4946817b13d12152939343a981cd2e
-  languageName: node
-  linkType: hard
-
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -2733,6 +2720,26 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: c72113e32c222af94482a60e7cea8d296360abbc503afa64394af65ca106c7a36d975a68fed63e8cf5668ffebc33fa636665ceaf55c75d4cf949fb40302fc409
+  languageName: node
+  linkType: hard
+
+"@seoltab/react-native-webrtc@npm:^125.0.3":
+  version: 125.0.3
+  resolution: "@seoltab/react-native-webrtc@npm:125.0.3"
+  dependencies:
+    base64-js: 1.5.1
+    debug: 4.3.4
+    event-target-shim: 6.0.2
+  peerDependencies:
+    react-native: ">=0.60.0"
+  checksum: 4fa10085232379544454a1ac6c274476e9d499bacd23daef4b0484b93d1bf91bf665be57b4b49bdd703f32f5049a3454bfe9c13e32a8a800ff0d2858b15fc658
+  languageName: node
+  linkType: hard
+
+"@seoltab/webrtc-xcframework@npm:^125.0.2":
+  version: 125.0.2
+  resolution: "@seoltab/webrtc-xcframework@npm:125.0.2"
+  checksum: c6d9719c262acb1622326f16a2268588731e4238585f824a91be0303477d8abe12d43237d5f3839771b8b21ae34497fec0dc20c6cff79cab41b63cf65bf92bcc
   languageName: node
   linkType: hard
 
@@ -6079,7 +6086,6 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@livekit/react-native-webrtc": ^125.0.2
     "@react-native-async-storage/async-storage": ^1.17.10
     "@react-native/babel-preset": 0.74.84
     "@react-native/eslint-config": 0.74.84
@@ -6087,6 +6093,8 @@ __metadata:
     "@react-native/typescript-config": 0.74.84
     "@react-navigation/native": ^6.0.8
     "@react-navigation/native-stack": ^6.5.0
+    "@seoltab/react-native-webrtc": ^125.0.3
+    "@seoltab/webrtc-xcframework": ^125.0.2
     "@supersami/rn-foreground-service": ^2.1.1
     "@types/fastestsmallesttextencoderdecoder": ^1.0.0
     "@types/react": ^18.2.6

@@ -23,23 +23,23 @@ Use this SDK to add realtime video, audio and data features to your React Native
 ### NPM
 
 ```sh
-npm install @livekit/react-native @livekit/react-native-webrtc
+npm install @seoltab/react-native @seoltab/react-native-webrtc
 ```
 
 ### Yarn
 
 ```sh
-yarn add @livekit/react-native @livekit/react-native-webrtc
+yarn add @seoltab/react-native @seoltab/react-native-webrtc
 ```
 
-This library depends on `@livekit/react-native-webrtc`, which has additional installation instructions found here:
+This library depends on `@seoltab/react-native-webrtc`, which has additional installation instructions found here:
 
 - [iOS Installation Guide](https://github.com/livekit/react-native-webrtc/blob/master/Documentation/iOSInstallation.md)
 - [Android Installation Guide](https://github.com/livekit/react-native-webrtc/blob/master/Documentation/AndroidInstallation.md)
 
 ---
 
-Once the `@livekit/react-native-webrtc` dependency is installed, one last step is needed to finish the installation:
+Once the `@seoltab/react-native-webrtc` dependency is installed, one last step is needed to finish the installation:
 
 ### Android
 
@@ -115,7 +115,7 @@ In your `index.js` file, setup the LiveKit SDK by calling `registerGlobals()`.
 This sets up the required WebRTC libraries for use in Javascript, and is needed for LiveKit to work.
 
 ```js
-import { registerGlobals } from '@livekit/react-native';
+import { registerGlobals } from '@seoltab/react-native';
 
 // ...
 
@@ -142,7 +142,7 @@ import {
   VideoTrack,
   isTrackReference,
   registerGlobals,
-} from '@livekit/react-native';
+} from '@seoltab/react-native';
 import { Track } from 'livekit-client';
 
 const wsURL = "wss://example.com"

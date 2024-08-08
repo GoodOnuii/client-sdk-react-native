@@ -1,5 +1,5 @@
 {
-  "name": "@livekit/react-native",
+  "name": "@seoltab/react-native",
   "version": "2.3.1",
   "description": "LiveKit for React Native",
   "main": "lib/commonjs/index",
@@ -26,13 +26,13 @@
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
-  "repository": "https://github.com/livekit/client-sdk-react-native",
+  "repository": "https://github.com/GoodOnuii/client-sdk-react-native",
   "author": "LiveKit <dl@livekit.io> (https://livekit.io/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/livekit/client-sdk-react-native/issues"
+    "url": "https://github.com/GoodOnuii/client-sdk-react-native/issues"
   },
-  "homepage": "https://github.com/livekit/client-sdk-react-native#readme",
+  "homepage": "https://github.com/GoodOnuii/client-sdk-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -55,12 +55,13 @@
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@commitlint/config-conventional": "^16.2.1",
-    "@livekit/react-native-webrtc": "^125.0.2",
     "@react-native/babel-preset": "0.74.84",
     "@react-native/eslint-config": "0.74.84",
     "@react-native/metro-config": "0.74.84",
     "@react-native/typescript-config": "0.74.84",
     "@release-it/conventional-changelog": "^4.2.0",
+    "@seoltab/react-native-webrtc": "^125.0.3",
+    "@seoltab/webrtc-xcframework": "^125.0.2",
     "@types/fastestsmallesttextencoderdecoder": "^1.0.0",
     "@types/react": "^18.2.6",
     "babel-jest": "^29.6.3",
@@ -81,7 +82,6 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@livekit/react-native-webrtc": "^125.0.2",
     "react": "*",
     "react-native": "*"
   },

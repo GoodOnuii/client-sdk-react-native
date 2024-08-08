@@ -9,7 +9,7 @@ import {
   useIsSpeaking,
   useParticipantInfo,
   VideoTrack,
-} from '@livekit/react-native';
+} from '@seoltab/react-native';
 import { View } from 'react-native';
 import { Text } from 'react-native';
 import { useTheme } from '@react-navigation/native';

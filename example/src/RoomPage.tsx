@@ -27,13 +27,13 @@ import {
   type TrackReferenceOrPlaceholder,
   type ReceivedDataMessage,
   AndroidAudioTypePresets,
-} from '@livekit/react-native';
+} from '@seoltab/react-native';
 import { Platform } from 'react-native';
 // @ts-ignore
 import {
   mediaDevices,
   ScreenCapturePickerView,
-} from '@livekit/react-native-webrtc';
+} from '@seoltab/react-native-webrtc';
 import { startCallService, stopCallService } from './callservice/CallService';
 import Toast from 'react-native-toast-message';
 

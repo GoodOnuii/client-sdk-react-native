@@ -7,7 +7,7 @@ import com.facebook.react.bridge.*
 import com.livekit.reactnative.audio.AudioDeviceKind
 import com.livekit.reactnative.audio.AudioManagerUtils
 import com.livekit.reactnative.audio.AudioSwitchManager
-import org.webrtc.audio.WebRtcAudioTrackHelper
+import livekit.org.webrtc.audio.WebRtcAudioTrackHelper
 
 
 class LivekitReactNativeModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {

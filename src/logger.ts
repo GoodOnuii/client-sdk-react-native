@@ -10,7 +10,7 @@ export type SetLogLevelOptions = {
 };
 
 /**
- * Set the log level for both the `@livekit/react-native` package and the `@livekit-client` package.
+ * Set the log level for both the `@seoltab/react-native` package and the `@livekit-client` package.
  * To set the `@livekit-client` log independently, use the `liveKitClientLogLevel` prop on the `options` object.
  * @public
  */

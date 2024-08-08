@@ -1,4 +1,4 @@
-import { registerGlobals as webrtcRegisterGlobals } from '@livekit/react-native-webrtc';
+import { registerGlobals as webrtcRegisterGlobals } from '@seoltab/react-native-webrtc';
 import { setupURLPolyfill } from 'react-native-url-polyfill';
 import './polyfills/EncoderDecoderTogether.min.js';
 import AudioSession, {
